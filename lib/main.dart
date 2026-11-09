@@ -88,6 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
+                  hintText: 'Enter first number',
                 ),
               ),
             ),
@@ -96,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: TextField(controller: _controller_2,
                 decoration: InputDecoration(
                   border: OutlineInputBorder(),
+                  hintText: 'Enter second number',
                 ),
                 keyboardType: TextInputType.number,
               ),
